@@ -1,6 +1,6 @@
-package udemyCourse1.Tapsiriqlar;
+package udemyCourse1.Tapsiriqlar.tasks;
 
-import udemyCourse1.Tapsiriqlar.Utility.MathUtil;
+import udemyCourse1.Tapsiriqlar.Ders4obyektler.Utility.MathUtil;
 
 public class tapsiriqlar {
     public static void main(String[] args) {

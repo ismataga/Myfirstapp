@@ -1,4 +1,4 @@
-package udemyCourse1.Tapsiriqlar.util;
+package udemyCourse1.Tapsiriqlar.Ders4.util;
 
 import java.util.Scanner;
 

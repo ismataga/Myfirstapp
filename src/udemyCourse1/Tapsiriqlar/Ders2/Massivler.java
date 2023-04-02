@@ -2,7 +2,7 @@ package udemyCourse1.Tapsiriqlar.Ders2;
 
 import java.util.Scanner;
 
-public class Arrays {
+public class Massivler {
 
     public static void main(String[] args) {
      boolean b= detectSymmetry("Hello");

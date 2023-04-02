@@ -1,4 +1,4 @@
-package udemyCourse1.Tapsiriqlar.main;
+package udemyCourse1.Tapsiriqlar.Ders1;
 
 /**
  *
