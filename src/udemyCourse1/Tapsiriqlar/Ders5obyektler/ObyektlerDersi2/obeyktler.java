@@ -1,4 +1,4 @@
-package udemyCourse1.Tapsiriqlar.ObyektlerDersi2;
+package udemyCourse1.Tapsiriqlar.Ders5obyektler.ObyektlerDersi2;
 
 public class obeyktler {
 

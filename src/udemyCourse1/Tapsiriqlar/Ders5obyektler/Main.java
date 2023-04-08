@@ -1,4 +1,4 @@
-package udemyCourse1.Tapsiriqlar.Ders4obyektler;
+package udemyCourse1.Tapsiriqlar.Ders5obyektler;
 
 public class Main {
     public static void main(String[] args) {
