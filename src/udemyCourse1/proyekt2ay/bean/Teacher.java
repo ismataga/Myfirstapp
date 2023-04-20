@@ -42,11 +42,6 @@ public class Teacher extends Person {
         this.salary = salary;
     }
 
-    @Override
-    public String toString() {
-        return
-                "schoolName='" + schoolName + '\'' +
-                ", salary=" + salary +
-                ", teachers=" + Arrays.toString(teachers);
-    }
+
+
 }

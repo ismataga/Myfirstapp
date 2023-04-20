@@ -22,10 +22,5 @@ public class Student extends Person {
         this.scholarship = scholarship;
     }
 
-    @Override
-    public String toString() {
-        return
-                "schoolName='" + schoolName +
-                ", scholarship=" + scholarship;
-    }
+
 }
