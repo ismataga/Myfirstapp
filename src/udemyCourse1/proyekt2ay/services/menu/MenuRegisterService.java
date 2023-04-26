@@ -1,8 +1,6 @@
 package udemyCourse1.proyekt2ay.services.menu;
 
-import udemyCourse1.proyekt2ay.serviceMenuInter.MenuRegisterServiceInter;
-import udemyCourse1.proyekt2ay.serviceMenuInter.MenuService;
-import udemyCourse1.proyekt2ay.serviceMenuInter.SaveableMenuService;
+import udemyCourse1.proyekt2ay.service.inter.menu.MenuRegisterServiceInter;
 
 public class MenuRegisterService implements MenuRegisterServiceInter {
 

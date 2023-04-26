@@ -1,6 +1,6 @@
 package udemyCourse1.proyekt2ay.bean;
 
-import udemyCourse1.proyekt2ay.bean.Person;
+
 
 public class Student extends Person {
     private String schoolName;
@@ -22,10 +22,5 @@ public class Student extends Person {
         this.scholarship = scholarship;
     }
 
-    @Override
-    public String toString() {
-        return
-                "schoolName='" + schoolName +
-                ", scholarship=" + scholarship;
-    }
+
 }

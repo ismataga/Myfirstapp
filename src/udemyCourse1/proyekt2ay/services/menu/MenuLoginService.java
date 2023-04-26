@@ -1,7 +1,7 @@
 package udemyCourse1.proyekt2ay.services.menu;
 
 import udemyCourse1.proyekt2ay.bean.Config;
-import udemyCourse1.proyekt2ay.serviceMenuInter.MenuLoginServiceInter;
+import udemyCourse1.proyekt2ay.service.inter.menu.MenuLoginServiceInter;
 
 import java.util.Scanner;
 

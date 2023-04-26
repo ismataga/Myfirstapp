@@ -2,11 +2,9 @@ package udemyCourse1.proyekt2ay.services.menu;
 
 import udemyCourse1.proyekt2ay.bean.Config;
 import udemyCourse1.proyekt2ay.bean.Student;
-import udemyCourse1.proyekt2ay.serviceMenuInter.MenuAddStudentServiceInter;
+import udemyCourse1.proyekt2ay.service.inter.menu.MenuAddStudentServiceInter;
 
 import java.util.Scanner;
-
-import udemyCourse1.proyekt2ay.serviceMenuInter.SaveableMenuService;
 
 public class MenuAddStudentService implements MenuAddStudentServiceInter  {
 

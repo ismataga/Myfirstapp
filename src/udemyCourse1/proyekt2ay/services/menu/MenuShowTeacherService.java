@@ -1,10 +1,8 @@
 package udemyCourse1.proyekt2ay.services.menu;
 
 import udemyCourse1.proyekt2ay.bean.Config;
-import udemyCourse1.proyekt2ay.bean.Student;
 import udemyCourse1.proyekt2ay.bean.Teacher;
-import udemyCourse1.proyekt2ay.serviceMenuInter.MenuShowStudentsServiceInter;
-import udemyCourse1.proyekt2ay.serviceMenuInter.MenuShowTeachersServiceInter;
+import udemyCourse1.proyekt2ay.service.inter.menu.MenuShowTeachersServiceInter;
 
 public class MenuShowTeacherService implements MenuShowTeachersServiceInter {
     @Override

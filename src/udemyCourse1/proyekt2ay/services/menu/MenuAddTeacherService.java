@@ -2,12 +2,12 @@ package udemyCourse1.proyekt2ay.services.menu;
 
 import udemyCourse1.proyekt2ay.bean.Config;
 import udemyCourse1.proyekt2ay.bean.Teacher;
-import udemyCourse1.proyekt2ay.serviceMenuInter.MenuAddTeacherServiceInter;
-import udemyCourse1.proyekt2ay.serviceMenuInter.SaveableMenuService;
+import udemyCourse1.proyekt2ay.service.inter.menu.MenuAddTeacherServiceInter;
+import udemyCourse1.proyekt2ay.serviceIinter.SaveableProcess;
 
 import java.util.Scanner;
 
-public class MenuAddTeacherService implements MenuAddTeacherServiceInter, SaveableMenuService {
+public class MenuAddTeacherService implements MenuAddTeacherServiceInter, SaveableProcess {
     public void processLogic() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter sname: ");

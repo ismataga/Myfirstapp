@@ -2,7 +2,7 @@ package udemyCourse1.proyekt2ay.services.menu;
 
 import udemyCourse1.proyekt2ay.bean.Config;
 import udemyCourse1.proyekt2ay.bean.Student;
-import udemyCourse1.proyekt2ay.serviceMenuInter.MenuShowStudentsServiceInter;
+import udemyCourse1.proyekt2ay.service.inter.menu.MenuShowStudentsServiceInter;
 
 public class MenuShowStudentService implements MenuShowStudentsServiceInter {
     @Override

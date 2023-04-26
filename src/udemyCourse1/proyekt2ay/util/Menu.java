@@ -2,7 +2,7 @@ package udemyCourse1.proyekt2ay.util;
 
 import udemyCourse1.proyekt2ay.bean.Config;
 import udemyCourse1.proyekt2ay.services.menu.*;
-import udemyCourse1.proyekt2ay.serviceMenuInter.MenuService;
+import udemyCourse1.proyekt2ay.serviceIinter.Process;
 
 public enum Menu {
     LOGIN(1, "Login", new MenuLoginService()),
@@ -16,9 +16,9 @@ public enum Menu {
 
     private int nums;
     private String label;
-    private MenuService service;
+    private Process service;
 
-    Menu(int nums, String label, MenuService service) {
+    Menu(int nums, String label, Process service) {
         this.nums = nums;
         this.label = label;
         this.service = service;
@@ -32,11 +32,11 @@ public enum Menu {
         this.label = label;
     }
 
-    public MenuService getService() {
+    public Process getService() {
         return service;
     }
 
-    public void setService(MenuService service) {
+    public void setService(Process service) {
         this.service = service;
     }
 
