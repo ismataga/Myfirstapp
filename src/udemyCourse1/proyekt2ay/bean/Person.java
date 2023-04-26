@@ -10,10 +10,9 @@ public abstract class Person implements Serializable {
     public Person(String name, String surname, int age) {
         this.name = name;
         this.surname = surname;
-        this.age = age;
+        this.age= age;
     }
-
-    public Person() {
+    public Person (){
 
     }
 
@@ -39,10 +38,5 @@ public abstract class Person implements Serializable {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return name + " " + surname;
     }
 }
