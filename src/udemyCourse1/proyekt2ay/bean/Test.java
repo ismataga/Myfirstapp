@@ -28,9 +28,4 @@ public class Test {
             System.out.println("------------------");
         }
     }
-=======
-public class Test {
-
-
->>>>>>> origin/master
 }

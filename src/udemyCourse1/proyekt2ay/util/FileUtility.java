@@ -1,9 +1,9 @@
 package udemyCourse1.proyekt2ay.util;
 
-import java.io.FileInputStream;
-import java.io.ObjectInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class FileUtility {
     public static Object readFileDeserialize(String name) {
@@ -24,5 +24,25 @@ public class FileUtility {
             throw new RuntimeException(ex);
         }
 
+    }
+
+    public static byte[] readBytes( String filename) throws Exception{
+        File file = new File(filename);
+        try(FileInputStream fileInputStream = new FileInputStream(file);){
+            byte[] bytesArray = new byte[(int) file.length()];
+
+            //read file into bytes
+            fileInputStream.read(bytesArray);
+            return bytesArray;
+        }
+    }
+
+    public static void writeBytes(String filename,byte[] data) throws IOException {
+        FileOutputStream fop = new FileOutputStream(filename);
+        fop.write(data);
+        fop.flush();
+        fop.close();
+        System.out.println("Done");
+        
     }
 }
